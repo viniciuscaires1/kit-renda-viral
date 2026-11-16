@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Você construiu um piscinão</title>
+<style>
+@font-face{font-family:M;font-weight:700;src:url(/node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:M;font-weight:800;src:url(/node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:M;font-weight:900;src:url(/node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2) format('woff2')}
+:root{--y:#FFD60A}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#7d8da0;font-family:M,Arial,sans-serif;color:#fff}
+#c{position:absolute;left:0;top:0;width:1080px;height:1920px;display:block}
+#ui{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+#ui>*{position:absolute;display:none}
+.stroke{paint-order:stroke fill;-webkit-text-stroke:12px #000}
+#vig{display:block!important;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 58%,rgba(0,0,0,.35) 100%)}
+#dim{inset:0;background:rgba(5,10,20,.6)}
+.pill{background:#fff;color:#111;font-weight:900;font-size:44px;padding:14px 30px 14px 22px;border-radius:60px;white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.pill i{display:inline-block;width:24px;height:24px;border-radius:50%;margin-right:16px;vertical-align:middle;position:relative;top:-3px}
+#cap{left:40px;right:40px;top:1170px;text-align:center;font-weight:900;font-size:104px;line-height:1;letter-spacing:-1px}
+#cap span{display:inline-block}
+#num{left:0;right:0;top:300px;text-align:center}
+#num .n{font-weight:900;font-size:120px;color:var(--y);line-height:1}
+#num .u{font-weight:900;font-size:64px;color:#fff;margin-top:6px}
+#pools{left:90px;width:900px;top:600px;display:none;flex-wrap:wrap;gap:6px}
+#pools b{display:block;width:39px;height:22px;border-radius:4px;background:#3fa9ff;border:2px solid #0b3d6b;opacity:0}
+#poolstxt{left:0;right:0;top:1040px;text-align:center;font-weight:900;font-size:56px;color:#fff}
+#title{left:0;right:0;top:330px;text-align:center}
+#title .t1{font-weight:900;font-size:120px;color:var(--y);line-height:1}
+#title .t2{font-weight:900;font-size:66px;color:#fff;line-height:1.1;margin-top:18px}
+#endc{inset:0;background:radial-gradient(circle at 50% 38%,#1aa9bd 0%,#0b4f63 70%);text-align:center}
+#endc img{display:block;margin:330px auto 0;width:460px;height:460px;border-radius:50%;border:16px solid #fff;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+#endc .e1{margin-top:70px;font-weight:900;font-size:100px;color:var(--y)}
+#endc .e2{margin-top:16px;font-weight:800;font-size:54px;color:#fff;line-height:1.15}
+#cover{left:0;right:0;top:300px;text-align:center}
+#cover .c1{font-weight:900;font-size:84px;color:#fff;line-height:1.05}
+#cover .c2{font-weight:900;font-size:190px;color:var(--y);line-height:1}
+</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<div id="ui">
+  <div id="vig"></div>
+  <div id="dim"></div>
+  <div id="p1" class="pill"><i></i><span></span></div>
+  <div id="p2" class="pill"><i></i><span></span></div>
+  <div id="num"><div class="n stroke" id="numn">0</div><div class="u stroke">LITROS DE CHUVA</div></div>
+  <div id="pools"></div>
+  <div id="poolstxt" class="stroke">= 360 PISCINAS OLÍMPICAS</div>
+  <div id="title"><div class="t1 stroke">PARABÉNS!</div><div class="t2 stroke">VOCÊ CONSTRUIU<br>UM PISCINÃO!</div></div>
+  <div id="endc"><img src="/avatar2/t000.00.png" alt=""><div class="e1 stroke">SEGUE O PERFIL</div><div class="e2">Como funciona o que<br>você vê todo dia</div></div>
+  <div id="cover"><div class="c1 stroke">VOCÊ CONSTRUIU UM</div><div class="c2 stroke">PISCINÃO</div></div>
+  <div id="cap"><span class="stroke"></span></div>
+</div>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="cena.js"></script>
+</body>
+</html>
