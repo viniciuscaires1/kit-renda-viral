@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Teste do estúdio</title><style>
+@font-face{font-family:M;font-weight:900;src:url(/node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2) format('woff2')}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#8fb6dc;font-family:M,Arial,sans-serif;color:#fff}
+#c{position:absolute;inset:0;width:1080px;height:1920px}
+#ui{position:absolute;inset:0;pointer-events:none}
+#cap{position:absolute;left:40px;right:40px;top:1170px;text-align:center;font-weight:900;font-size:110px;line-height:1;paint-order:stroke fill;-webkit-text-stroke:12px #000}
+#cap.y{color:#FFD60A}
+#pill{position:absolute;left:50%;top:540px;transform:translateX(-50%);background:#fff;color:#111;font-weight:900;font-size:46px;padding:16px 34px 16px 24px;border-radius:60px;white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.35);opacity:0}
+#pill i{display:inline-block;width:26px;height:26px;border-radius:50%;background:#18c964;margin-right:16px;vertical-align:middle;position:relative;top:-3px}
+#title{position:absolute;left:0;right:0;top:300px;text-align:center;font-weight:900;font-size:150px;color:#FFD60A;paint-order:stroke fill;-webkit-text-stroke:14px #000;opacity:0}
+</style></head><body>
+<canvas id="c"></canvas>
+<div id="ui"><div id="title">PRONTO!</div><div id="pill"><i></i>ESTÚDIO FUNCIONANDO</div><div id="cap"></div></div>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="cena.js"></script>
+</body></html>
