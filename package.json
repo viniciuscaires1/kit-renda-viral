@@ -1,0 +1,14 @@
+{
+  "name": "kit-renda-viral",
+  "private": true,
+  "type": "module",
+  "description": "Estúdio de vídeos animados em 3D com IA do curso Renda Viral",
+  "scripts": {
+    "teste": "python3 scripts/produzir.py videos/teste"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "5.1.0",
+    "puppeteer-core": "23.11.1",
+    "three": "0.170.0"
+  }
+}

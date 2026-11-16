@@ -1,0 +1,6 @@
+node_modules/
+.chrome/
+videos/*/audio/
+videos/*/teste/
+videos/*/video_mudo.mp4
+.DS_Store
