@@ -1,0 +1,116 @@
+[
+ [
+  "s1",
+  "narr",
+  "Se você asfaltar uma cidade inteira, quando chover forte, a água não tem pra onde ir.",
+  0.15
+ ],
+ [
+  "s2",
+  "narr",
+  "E a rua vira um rio.",
+  0.35
+ ],
+ [
+  "s3",
+  "narr",
+  "Então você abre uma entrada na beira da calçada, que engole a água da sarjeta. Essa é a boca de lobo.",
+  0.3
+ ],
+ [
+  "s4",
+  "narr",
+  "Mas a água precisa ir pra algum lugar. Então você enterra canais gigantes debaixo da rua, que levam tudo até o rio. Essas são as galerias.",
+  0.3
+ ],
+ [
+  "s5",
+  "narr",
+  "Mas numa tempestade, chove mais rápido do que o rio consegue levar embora. O rio sobe, a galeria enche, e a água volta pela boca de lobo.",
+  0.3
+ ],
+ [
+  "s6",
+  "narr",
+  "Então você cava um buraco do tamanho de um campo de futebol, que segura a chuva enquanto o rio não dá conta. Esse é o piscinão.",
+  0.35
+ ],
+ [
+  "s7",
+  "narr",
+  "Parece mentira, mas embaixo da praça do estádio do Pacaembu, em São Paulo, tem um piscinão escondido.",
+  0.25
+ ],
+ [
+  "s8",
+  "narr",
+  "E o maior da América Latina, o Jaboticabal, guarda novecentos milhões de litros. São trezentas e sessenta piscinas olímpicas.",
+  0.35
+ ],
+ [
+  "s9",
+  "narr",
+  "Mas o piscinão fica mais fundo que a galeria. A água entra, mas não consegue sair sozinha.",
+  0.25
+ ],
+ [
+  "s10",
+  "narr",
+  "Então você instala bombas gigantes, que devolvem a água pra galeria quando a chuva passa. Essa é a estação de bombeamento.",
+  0.3
+ ],
+ [
+  "s11",
+  "narr",
+  "Mas a chuva traz junto garrafa, sacola e até sofá. E o lixo trava as bombas.",
+  0.25
+ ],
+ [
+  "s12",
+  "narr",
+  "Então você coloca uma grade gigante na entrada, que segura o lixo e deixa a água passar. Essa é a grade de retenção.",
+  0.3
+ ],
+ [
+  "s13",
+  "narr",
+  "Mas a terra que desce com a água fica no fundo, e o piscinão vai ficando raso.",
+  0.25
+ ],
+ [
+  "s14",
+  "narr",
+  "Então, depois das chuvas, entram tratores lá dentro pra tirar toneladas de lama. Esse é o desassoreamento.",
+  0.25
+ ],
+ [
+  "s15",
+  "narr",
+  "É por isso que piscinão sem limpeza vira um lago de lixo e mosquito.",
+  0.35
+ ],
+ [
+  "s16",
+  "narr",
+  "Mas o melhor jeito de segurar a chuva é ela nem chegar na rua. Então você planta árvores e faz canteiros e calçadas que deixam a água entrar na terra. Essa é a cidade-esponja.",
+  0.3
+ ],
+ [
+  "s17",
+  "narr",
+  "Coloque um sensor que avisa quando o rio tá subindo, uma sirene, e um guarda-chuva bem grande.",
+  0.35
+ ],
+ [
+  "s18",
+  "narr",
+  "Parabéns! Você construiu um piscinão!",
+  0.4
+ ],
+ [
+  "s19",
+  "narr",
+  "Segue o perfil pra descobrir como funciona o que você vê todo dia.",
+  1.0
+ ]
+]
