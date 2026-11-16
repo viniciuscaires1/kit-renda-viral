@@ -1,0 +1,134 @@
+[
+ [
+  "s1",
+  "narr",
+  "Você entra no Uber e tem uma mala com dois milhões de reais no banco de trás.",
+  0.45
+ ],
+ [
+  "s2",
+  "narr",
+  "Sexta, quase meia-noite. Corrida de dezoito reais até a sua casa.",
+  0.2
+ ],
+ [
+  "s3",
+  "narr",
+  "O motorista, Cláudio, nota quatro vírgula nove, nem olha pra trás.",
+  0.25
+ ],
+ [
+  "s4",
+  "narr",
+  "Seu pé bate em alguma coisa dura. Uma mala preta. Com o zíper aberto.",
+  0.35
+ ],
+ [
+  "s5",
+  "narr",
+  "Você puxa o zíper só mais um pouco. Notas de cem. Maço em cima de maço.",
+  0.25
+ ],
+ [
+  "s6",
+  "narr",
+  "Você fecha devagar. Muito devagar.",
+  0.45
+ ],
+ [
+  "s7",
+  "narr",
+  "Pelo retrovisor, o Cláudio te olha.",
+  0.2
+ ],
+ [
+  "s8",
+  "claudio",
+  "Tudo certo aí atrás?",
+  0.25
+ ],
+ [
+  "s9",
+  "voce",
+  "Tudo.",
+  0.35
+ ],
+ [
+  "s10",
+  "narr",
+  "Ele aumenta o volume do rádio.",
+  0.45
+ ],
+ [
+  "s11",
+  "narr",
+  "Aí, dentro da mala, um celular vibra.",
+  0.25
+ ],
+ [
+  "s12",
+  "narr",
+  "Uma mensagem: Já tá com você?",
+  0.35
+ ],
+ [
+  "s13",
+  "narr",
+  "Dois segundos depois, outra: Se o motorista perguntar, você não viu nada.",
+  0.45
+ ],
+ [
+  "s14",
+  "narr",
+  "O Cláudio sai da rota.",
+  0.2
+ ],
+ [
+  "s15",
+  "claudio",
+  "Vou cortar caminho, a Marginal tá parada.",
+  0.25
+ ],
+ [
+  "s16",
+  "narr",
+  "Mas no seu app, a Marginal tá livre.",
+  0.45
+ ],
+ [
+  "s17",
+  "narr",
+  "Atrás de vocês, um carro preto acende o farol alto.",
+  0.3
+ ],
+ [
+  "s18",
+  "narr",
+  "E chega a última mensagem: Desce na próxima esquina. E leva a mala.",
+  0.55
+ ],
+ [
+  "s19",
+  "narr",
+  "Você tem cinco segundos.",
+  0.25
+ ],
+ [
+  "s20",
+  "narr",
+  "Opção A: você conta pro motorista sobre a mala.",
+  0.25
+ ],
+ [
+  "s21",
+  "narr",
+  "Opção B: você desce na esquina com a mala.",
+  0.35
+ ],
+ [
+  "s22",
+  "narr",
+  "Comenta A ou B. A maioria decide a parte dois.",
+  1.2
+ ]
+]
